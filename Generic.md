@@ -1,4 +1,4 @@
-# **Problem — Generic Graph Implementation With Type Constraints**
+# **Problem 1 — Generic Graph Implementation With Type Constraints**
 
 ### **Problem Statement**
 
@@ -38,7 +38,7 @@ public <T extends Number> double totalWeight();
 * Methods introducing their own type parameters
 * Maintaining type-safety while supporting any comparable node type
 
-# **Problem  — Create a Generic Cache With Expiration**
+# **Problem 2  — Create a Generic Cache With Expiration**
 
 ### **Problem Statement**
 
@@ -82,7 +82,7 @@ public <T extends V> List<T> getValuesOfType(Class<T> type);
 
 ---
 
-# **Problem — Build a Generic Serializer Framework**
+# **Problem 3 — Build a Generic Serializer Framework**
 
 ### **Problem Statement**
 
