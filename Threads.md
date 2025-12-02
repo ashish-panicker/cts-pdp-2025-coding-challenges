@@ -20,10 +20,10 @@ Create a program that:
    **“All downloads started, main thread is free.”**
 
 **Tested Concepts:**
-✔ Thread creation
-✔ Naming threads
-✔ Simulated work via sleep
-✔ Thread lifecycle awareness
+ Thread creation
+ Naming threads
+ Simulated work via sleep
+ Thread lifecycle awareness
 
 ---
 
@@ -48,9 +48,9 @@ A runs → B runs → C runs
 * No synchronization, no wait/notify
 
 **Tested Concepts:**
-✔ Coordination using join
-✔ Sequential orchestration
-✔ Thread basics
+ Coordination using join
+ Sequential orchestration
+ Thread basics
 
 ---
 
@@ -69,9 +69,9 @@ It should print current time every 1 sec like:
 Stop the clock after **10 seconds** using a shared flag.
 
 **Tested Concepts:**
-✔ Runnable
-✔ Graceful thread stop
-✔ Shared state
+ Runnable
+ Graceful thread stop
+ Shared state
 
 ---
 
@@ -99,9 +99,9 @@ Consumed: 2
 ```
 
 **Tested Concepts:**
-✔ Classic wait-notify
-✔ Shared object locking
-✔ Correct condition checks
+ Classic wait-notify
+ Shared object locking
+ Correct condition checks
 
 ---
 
@@ -125,9 +125,9 @@ Requirements:
 * Ensure strict alternation until 20
 
 **Tested Concepts:**
-✔ Coordination logic
-✔ Proper monitor lock usage
-✔ Condition-based waiting
+ Coordination logic
+ Proper monitor lock usage
+ Condition-based waiting
 
 ---
 
@@ -148,9 +148,9 @@ Internally use:
 Then create **5 producers** and **2 consumers**.
 
 **Tested Concepts:**
-✔ Designing custom blocking structure
-✔ Multi-producer/multi-consumer correctness
-✔ Safe concurrency
+ Designing custom blocking structure
+ Multi-producer/multi-consumer correctness
+ Safe concurrency
 
 ---
 
@@ -180,10 +180,10 @@ finalPrice = price - discount + tax
 Print output only after all tasks finish.
 
 **Tested Concepts:**
-✔ Callable
-✔ Future.get()
-✔ Parallelism
-✔ Combining async results
+ Callable
+ Future.get()
+ Parallelism
+ Combining async results
 
 ---
 
@@ -197,9 +197,9 @@ Main thread should wait only **2 seconds**, then:
 * Print: “Timeout reached. Task cancelled.”
 
 **Tested Concepts:**
-✔ Future cancellation
-✔ Timeout versions of get()
-✔ Handling long-running tasks
+ Future cancellation
+ Timeout versions of get()
+ Handling long-running tasks
 
 ---
 
@@ -217,9 +217,9 @@ Each implemented as `Callable<List<String>>`.
 Submit tasks to a pool, use Future, then merge all lists.
 
 **Tested Concepts:**
-✔ Multiple Future tasks
-✔ Merging results
-✔ Thread pool tuning
+ Multiple Future tasks
+ Merging results
+ Thread pool tuning
 
 ---
 
@@ -241,9 +241,9 @@ Use:
 * Combine for final score
 
 **Tested Concepts:**
-✔ Async pipelines
-✔ Custom executors
-✔ Non-blocking join
+ Async pipelines
+ Custom executors
+ Non-blocking join
 
 ---
 
@@ -266,9 +266,9 @@ fetchPage
 ```
 
 **Tested Concepts:**
-✔ Dependent async tasks
-✔ Parallel subtasks
-✔ Combining multiple results
+ Dependent async tasks
+ Parallel subtasks
+ Combining multiple results
 
 ---
 
@@ -290,9 +290,9 @@ Rules:
 * Otherwise “COMPLETED”
 
 **Tested Concepts:**
-✔ Error handling in async flows
-✔ Real-world microservice simulation
-✔ Branching logic in CompletableFuture chains
+ Error handling in async flows
+ Real-world microservice simulation
+ Branching logic in CompletableFuture chains
 
 ---
 
@@ -314,9 +314,9 @@ All in parallel using:
 Final combination with `thenApply()`.
 
 **Tested Concepts:**
-✔ Parallel computation
-✔ Logging context propagation
-✔ Async result merging
+ Parallel computation
+ Logging context propagation
+ Async result merging
 
 ---
 
@@ -333,9 +333,9 @@ Create a mini framework that:
 * Use only `synchronized`, `wait()`, and `notify()`
 
 **Tested Concepts:**
-✔ Designing concurrency primitives
-✔ Custom scheduler logic
-✔ Complex synchronization
+ Designing concurrency primitives
+ Custom scheduler logic
+ Complex synchronization
 
 ---
 
@@ -349,5 +349,3 @@ Group every **5 requests** into one batch:
 * Process each batch in parallel using CompletableFuture
 * Use `allOf()` to know when all batches finished
 * Return total time taken
-
-Which challenge(s) do you want solved first, Ashish?
