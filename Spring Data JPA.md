@@ -205,10 +205,8 @@ Returns details of a customer using `CustomerResponse`.
 
 ---
 
-# Additional Challenge (Optional for Extra Points)
+# Additional Challenge
 
 1. Add pagination & sorting to transaction retrieval.
 2. Add `/api/transactions/top` to fetch highest-value transactions.
 
-
-If you'd like, I can help you format this into a **PDF assignment**, **Jira story**, or **Hackathon challenge document**.
